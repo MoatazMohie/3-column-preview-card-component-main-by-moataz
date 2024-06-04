@@ -11,7 +11,7 @@ body {
 	font-weight: 400;
     font-size: 15px;
 	width: 100%;
-	/* min-height: 100vh; */
+	min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
 .container {
     max-width: 70%;
     width: 100%;
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
     border: none;
     border-radius: 10px;
     /* max-height: 60vh;
@@ -48,10 +48,12 @@ body {
 
 .card {
     padding: 40px;
+    height: 90vh;
 }
 
 .card img {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 5vh;
     width: 30%;
 }
 
@@ -59,19 +61,21 @@ body {
     font-family: 'Big Shoulders Display';
     font-size: 34px;
     font-weight: 700;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 5vh;
     color: hsl(0, 0%, 95%);
 }
 
 .card p {
     color: hsla(0, 0%, 100%, 0.75);
-    margin-bottom: 65px;
+    /* margin-bottom: 65px; */
+    margin-top: 5vh;
     line-height: 25px;
     padding-right: 20px;
 }
 
 .card button {
-    margin-bottom: 20px;  
+    margin-top: 5vh; 
     border-radius: 25px;
     border: none;
     padding:15px 30px;
@@ -87,10 +91,10 @@ body {
 }
 
 .luxury button {
-    hsl(179, 100%, 13%);
+  color:  hsl(179, 100%, 13%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .container {
         flex-direction: column;
         max-width: 90%;
